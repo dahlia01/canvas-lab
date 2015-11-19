@@ -1,1 +1,6 @@
 .idea
+<<<<<<< HEAD
+=======
+node_modules
+.sass-cache
+>>>>>>> c84f5159f0e16814099c42488b45f5b0c2a8d351

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Canvas Drawing Lab
 
 In our last class I showed you how to build a simple pong game using the [`<canvas>`](http://www.w3schools.com/tags/ref_canvas.asp) element. The `<canvas>` element is great for animated games, but it's also great for supporting random drawing like you can do in a raster-based paint program.
@@ -27,3 +28,60 @@ If you do things correctly, the user should be able to use that color input to c
 Now that you figured out how to let the user adjust line color, add another input that will let the user adjust [line width](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineWidth).
 
 And if you really want to get creative, let users also adjust other line styles, such as the [line end-cap](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap) or [line join style](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin).
+=======
+# INFO 343-E In-Class Code
+
+Students should fork this repo into their own accounts so that they can code along with me and commit/push their code to their own GitHub accounts.
+
+# Pulling Updates
+
+Periodically I will ask you to pull new commits from this original repo to pick up new directories and file stubs. To do this, follow the appropriate set of instructions below.
+
+## On A Lab Machine?
+
+The lab machines reset each time you log out, so you need to setup your environment from scratch every time:
+
+```bash
+$ git config --global user.name "your name"
+$ git config --global user.email "your email"
+$ git config --global core.editor nano
+
+$ git clone <your-forked-repo-url>
+$ cd info343-class-code
+
+$ git remote add upstream https://github.com/drstearns/info343-class-code.git
+
+$ git pull upstream master
+```
+
+The last command will typically trigger a merge commit and put you into the nano editor to confirm the commit message. Hit `ctrl+x` to exit the editor and return to the command prompt.
+
+## On Your Own Laptop?
+
+ If you are on your own laptop, you should do these commands only once:
+
+```bash
+$ git config --global user.name "your name"
+$ git config --global user.email "your email"
+$ git config --global core.editor nano
+
+$ git clone <your-forked-repo-url>
+$ cd info343-class-code
+
+$ git remote add upstream https://github.com/drstearns/info343-class-code.git
+```
+
+Then each time you need to pull from the my original repo, run these commands:
+
+```bash
+# change into your local repo directory
+$ cd info343-class-code
+
+# check for any uncommitted changes
+# and commit if necessary
+$ git status
+
+# pull new commits from the upstream repo
+$ git pull upstream master
+```
+>>>>>>> c84f5159f0e16814099c42488b45f5b0c2a8d351
